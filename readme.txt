@@ -40,16 +40,21 @@ Links:
 Admin panel setup:
 
 - Button Title
+
 The Title you want to display.
+
 - Icon
+
 Font Awesome Icon.
+
 - Link
+
 The Url where it will redirect on click.
 
 == Screenshots ==
 
-1. plugin-preview.png
-2. admin-setting.png
+plugin-preview.png
+admin-setting.png
 
 
 == Upgrade Notice ==
