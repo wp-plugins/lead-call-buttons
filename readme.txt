@@ -27,9 +27,6 @@ Special features:
 - Compatible with small devices
 - Very lightweight
 
-Links:
-- More Info About Lead Call Buttons <a href="http://polishyourimage.com/">Official WebSite</a>
-
 
 == Installation ==
 
@@ -39,19 +36,12 @@ Links:
 
 Admin panel setup:
 
-- Button Title
-
-The Title you want to display.
-
-- Icon
-
-Font Awesome Icon.
-
-- Link
-
-The Url where it will redirect on click.
+- Button Title: The Title you want to display.
+- Icon: Font Awesome Icon.
+- Link: The Url where it will redirect on click.
 
 == Screenshots ==
+
 1. Plugin Preview
 2. Admin Panel Settings 
 
