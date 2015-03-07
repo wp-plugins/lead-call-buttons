@@ -1,5 +1,4 @@
 === Lead Call Buttons ===
-
 Contributors: polishyourimage, jabintania, adamgillrie
 Website: http://polishyourimage.com
 Tags: leads, call, buttons, mobile, responsive, marketing, SEO, agency, designer, marketer, phone, plugin, iphone, android, contact, social, local, location
@@ -40,10 +39,12 @@ Admin panel setup:
 - Icon: Font Awesome Icon.
 - Link: The Url where it will redirect on click.
 
-== Screenshots ==
 
-1. Plugin Preview
-2. Admin Panel Settings 
+
+
+== Screenshots ==
+1. Admin Panel Settings
+2. Plugin Preview
 
 
 == Upgrade Notice ==
