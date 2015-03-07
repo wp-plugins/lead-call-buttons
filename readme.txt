@@ -53,8 +53,8 @@ The Url where it will redirect on click.
 
 == Screenshots ==
 
-plugin-preview.png
-admin-setting.png
+1. plugin-preview.png
+2. admin-setting.png
 
 
 == Upgrade Notice ==
