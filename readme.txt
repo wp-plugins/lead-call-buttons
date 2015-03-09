@@ -3,8 +3,8 @@ Contributors: polishyourimage, jabintania, adamgillrie
 Website: http://polishyourimage.com
 Tags: leads, call, buttons, mobile, responsive, marketing, SEO, agency, designer, marketer, phone, plugin, iphone, android, contact, social, local, location
 Requires at least: 3.0.0
-Tested up to: 4.0.1
-Stable tag: 1.0.0
+Tested up to: 4.1.1
+Stable tag: 1.0.1
 
 
 == Description ==

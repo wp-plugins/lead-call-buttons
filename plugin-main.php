@@ -5,7 +5,7 @@ Plugin URI: http://getyoursmartsiteon.com
 Description: When enabled adds Lead Call buttons to the mobile view of the website. The button icon, text, and link is configurable from plugin-settings.
 Author: Team Smart Site
 Author URI: http://getyoursmartsiteon.com
-Version: 1.0.0
+Version: 1.0.1
 */
 
 
@@ -29,7 +29,8 @@ class LCBMain {
         $this->plugin_path = plugin_dir_path( __FILE__ );
         $this->plugin_url = plugin_dir_url( __FILE__ );
         $this->frame_work = 'lead-call-button-frame';
-        add_action( 'admin_menu', array(&$this, 'admin_menu'), 99 );
+        add_action( 'admin_menu', array(&$this, 'admin_menu') );
+        add_filter( 'plugin_action_links', array(&$this, 'settings_link'), 10, 2);
         
         // Create New Framework
         require_once( $this->plugin_path .'lead-call-button-frame.php' );
@@ -63,9 +64,19 @@ class LCBMain {
     }
     
     function admin_menu(){
-        $page_hook = add_menu_page( __( 'Lead Call Buttons', $this->frame_work ), __( 'Lead Call Buttons', $this->frame_work ), 'update_core', 'Lead Call Buttons', array(&$this, 'settings_page') );
-        add_submenu_page( 'LCB', __( 'Settings', $this->frame_work ), __( 'Settings', $this->frame_work ), 'update_core', 'LCB', array(&$this, 'settings_page') );
+        $page_hook = add_options_page( __( 'Lead Call Buttons', $this->frame_work ), __( 'Lead Call Buttons', $this->frame_work ), 'manage_options', 'lead_call_buttons', array(&$this, 'settings_page') );
     }
+       
+    function settings_link($links, $file) {
+    	static $this_plugin;
+    	if (!$this_plugin) $this_plugin = plugin_basename(__FILE__);
+     
+    	if ($file == $this_plugin){
+    		$settings_link = '<a href="admin.php?page=lead_call_buttons">'.__("Settings").'</a>';
+    		array_unshift($links, $settings_link);
+    	}
+    	return $links;
+    } 
     
     function settings_page(){	    
 	    ?>
