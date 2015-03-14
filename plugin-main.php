@@ -2,10 +2,10 @@
 /*
 Plugin Name: Lead Call Buttons
 Plugin URI: http://getyoursmartsiteon.com
-Description: When enabled adds Lead Call buttons to the mobile view of the website. The button icon, text, and link is configurable from plugin-settings.
+Description: Make it easy for website visitors to reach you. When enabled adds customizable buttons to the mobile view of the website. The button icon, text, and link is configurable from plugin-settings.
 Author: Team Smart Site
 Author URI: http://getyoursmartsiteon.com
-Version: 1.0.1
+Version: 1.0.2
 */
 
 

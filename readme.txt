@@ -4,12 +4,13 @@ Website: http://polishyourimage.com
 Tags: leads, call, buttons, mobile, responsive, marketing, SEO, agency, designer, marketer, phone, plugin, iphone, android, contact, social, local, location
 Requires at least: 3.0.0
 Tested up to: 4.1.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 
 == Description ==
 
-When enabled adds Lead Call buttons to the mobile view of any website. Fully customizable from plugin-settings.
+Make it easy for website visitors to reach you. When enabled adds customizable buttons to the mobile view of the website. The button icon, text, and link is configurable from plugin-settings.
+
 
 Special features:
 

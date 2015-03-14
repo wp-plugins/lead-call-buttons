@@ -15,7 +15,7 @@ if( !class_exists('LCB_setting') ){
             if( $option_group ) $this->option_group = $option_group;
              
             add_action('admin_init', array(&$this, 'admin_init'));
-            add_action('admin_notices', array(&$this, 'admin_notices'));
+            //add_action('admin_notices', array(&$this, 'admin_notices'));
             add_action('admin_enqueue_scripts', array(&$this, 'admin_enqueue_scripts'));
         }
         
