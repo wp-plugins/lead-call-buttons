@@ -9,7 +9,7 @@ Stable tag: 1.0.2
 
 == Description ==
 
-Make it easy for website visitors to reach you. When enabled adds customizable buttons to the mobile view of the website. The button icon, text, and link is configurable from plugin-settings.
+Make it easy for website visitors to reach you. When enabled adds customizable buttons to the mobile view of the website, i.e. Call, Map, Schedule.
 
 
 Special features:
