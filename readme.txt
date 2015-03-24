@@ -11,6 +11,8 @@ Stable tag: 1.0.2
 
 Make it easy for website visitors to reach you. When enabled adds customizable buttons to the mobile view of the website, i.e. Call, Map, Schedule.
 
+Please support this plugin by leaving a review!
+
 
 Special features:
 
