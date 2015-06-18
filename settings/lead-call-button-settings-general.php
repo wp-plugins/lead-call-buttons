@@ -11,21 +11,21 @@ $LCB_settings[] = array(
         array(
             'id' => 'callnow-title',
             'title' => 'Button Title',
-            'desc' => 'Title.',
+            'desc' => 'Title. Example: Call Now',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'callnow-icon',
             'title' => 'Icon',
-            'desc' => 'Font Awesome Icon.',
+            'desc' => 'Font Awesome Icon. Example: <i class="fa fa-phone"></i>',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'callnow-number',
             'title' => 'Link',
-            'desc' => 'Phone number.',
+            'desc' => 'Phone number. Example: tel: XXX-XXX-XXXX',
             'type' => 'text',
             'std' => ''
         ),      

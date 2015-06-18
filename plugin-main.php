@@ -5,7 +5,7 @@ Plugin URI: http://getyoursmartsiteon.com
 Description: Make it easy for website visitors to reach you. When enabled adds customizable buttons to the mobile view of the website, i.e. Call, Map, Schedule.
 Author: Team Smart Site
 Author URI: http://getyoursmartsiteon.com
-Version: 1.0.2
+Version: 1.0.3
 */
 
 
