@@ -1,8 +1,8 @@
 <?php
 
 global $LCB_settings;
-
-$LCB_settings[] = array(
+ 
+$LCB_settings[] = array( 
     'section_id' => 'general',
     'section_title' => '',
     'section_description' => 'Settings for Lead Call Buttons. Leave Link field blank to hide button.',
@@ -11,21 +11,21 @@ $LCB_settings[] = array(
         array(
             'id' => 'callnow-title',
             'title' => 'Button Title',
-            'desc' => 'Title. Example: Call Now',
+            'desc' => 'Title. i.e., Call Now',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'callnow-icon',
             'title' => 'Icon',
-            'desc' => 'Font Awesome Icon. Example: <i class="fa fa-phone"></i>',
+            'desc' => 'Font Awesome Icon. i.e., <i class="fa fa-phone"></i>',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'callnow-number',
             'title' => 'Link',
-            'desc' => 'Phone number. Example: tel: XXX-XXX-XXXX',
+            'desc' => 'Phone number. i.e., tel: 123-456-7890, or http://absolute.com/link/, or /relative-link/',
             'type' => 'text',
             'std' => ''
         ),      
