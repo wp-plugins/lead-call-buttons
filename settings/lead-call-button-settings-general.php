@@ -18,7 +18,7 @@ $LCB_settings[] = array(
         array(
             'id' => 'callnow-icon',
             'title' => 'Icon',
-            'desc' => 'Font Awesome Icon. i.e., <code><i class="fa fa-phone"></i></code>',
+            'desc' => 'Font Awesome Icon. To choose visit here http://fortawesome.github.io/Font-Awesome/icons/',
             'type' => 'text',
             'std' => ''
         ),      
