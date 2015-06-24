@@ -11,7 +11,7 @@ $LCB_settings[] = array(
         array(
             'id' => 'callnow-title',
             'title' => 'Button Title',
-            'desc' => 'Title. i.e., Call Now',
+            'desc' => 'i.e., Call Now',
             'type' => 'text',
             'std' => ''
         ),      
@@ -25,49 +25,49 @@ $LCB_settings[] = array(
         array(
             'id' => 'callnow-number',
             'title' => 'Link',
-            'desc' => 'Phone number. i.e., tel: 123-456-7890, or http://absolute.com/link/, or /relative-link/',
+            'desc' => 'i.e., tel: 123-456-7890, or http://absolute.com/link/, or /relative-link/',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'schedule-title',
             'title' => 'Button Title',
-            'desc' => 'Title.',
+            'desc' => '',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'schedule-icon',
             'title' => 'Icon',
-            'desc' => 'Font Awesome Icon.',
+            'desc' => '',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'schedule-link',
             'title' => 'Link',
-            'desc' => 'Link.',
+            'desc' => '',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'map-title',
             'title' => 'Button Title',
-            'desc' => 'Title.',
+            'desc' => '',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'map-icon',
             'title' => 'Icon',
-            'desc' => 'Font Awesome Icon.',
+            'desc' => '',
             'type' => 'text',
             'std' => ''
         ),      
         array(
             'id' => 'map-link',
             'title' => 'Link',
-            'desc' => 'Link.',
+            'desc' => '',
             'type' => 'text',
             'std' => ''
         ),    
